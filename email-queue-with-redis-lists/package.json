@@ -1,0 +1,14 @@
+{
+    "name": "email-queue-with-redis-lists",
+    "version": "1.0.0",
+    "description": "A simple email queue implementation using Redis lists.",
+    "main": "src/index.js",
+    "scripts": {
+        "dev": "node src/index.js"
+    },
+    "type": "module",
+    "dependencies": {
+        "express": "^5.2.1",
+        "ioredis": "^4.6.7"
+    }
+}
