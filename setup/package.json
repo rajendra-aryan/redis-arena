@@ -1,0 +1,18 @@
+{
+    "name": "redis-setup",
+    "version": "1.0.0",
+    "description": "Redis setup for practice",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "node src/index.js"
+    },
+    "dependencies": {
+        "express": "^5.2.1",
+        "ioredis": "^4.6.7",
+        "mongoose": "^9.9.3"
+    },
+    "main": "index.js",
+    "author": "",
+    "license": "ISC"
+}
