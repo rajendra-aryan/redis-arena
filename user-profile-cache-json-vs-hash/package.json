@@ -1,0 +1,14 @@
+{
+    "name": "user-profile-cache-json-vs-hash",
+    "version": "1.0.0",
+    "description": "A simple Node.js project to compare caching user profiles using JSON vs Hash.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node src/index.js"
+    },
+    "type": "module",
+    "dependencies": {
+        "express": "^5.2.1",
+        "ioredis": "^4.6.7"
+    }
+}
