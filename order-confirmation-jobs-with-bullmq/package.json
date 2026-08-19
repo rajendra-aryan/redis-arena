@@ -1,0 +1,15 @@
+{
+    "name": "order-confirmation-jobs-with-bullmq",
+    "version": "1.0.0",
+    "description": "A simple order confirmation job queue implementation using BullMQ.",
+    "scripts": {
+        "api":"node src/api.js",
+        "worker":"node src/worker.js"
+    },
+    "type": "module",
+    "dependencies": {
+        "bullmq": "^5.4.2",
+        "express": "^5.2.1",
+        "ioredis": "^4.6.7"
+    }
+}
