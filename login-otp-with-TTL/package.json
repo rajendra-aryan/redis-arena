@@ -1,0 +1,14 @@
+{
+    "name": "login-otp-with-TTL",
+    "version": "1.0.0",
+    "description": "otp login with redis and TTL",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "node src/index.js"
+    },
+    "dependencies": {
+        "express": "^5.2.1",
+        "ioredis": "^4.6.7"
+    }
+}
