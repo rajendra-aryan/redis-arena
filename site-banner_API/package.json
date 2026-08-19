@@ -1,0 +1,17 @@
+{
+    "name": "site-banner",
+    "version": "1.0.0",
+    "description": "Site banner for practice",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "node src/index.js"
+    },
+    "dependencies": {
+        "express": "^5.2.1",
+        "ioredis": "^4.6.7"
+    },
+    "main": "index.js",
+    "author": "",
+    "license": "ISC"
+}
